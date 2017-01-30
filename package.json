@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/bobyone/fractal-ioc/issues"
   },
-  "homepage": "https://github.com/bobyone/fractal-ioc#readme"
+  "homepage": "https://github.com/bobyone/fractal-ioc#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "grunt": "^1.0.1",
+    "grunt-jsdoc": "^2.1.0"
+  }
 }
