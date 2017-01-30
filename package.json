@@ -1,0 +1,23 @@
+{
+  "name": "fractal-ioc",
+  "version": "1.0.0",
+  "description": "Simple ioc framework with configuration file (no intrusive code)",
+  "main": "fractal-ioc.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text --report-dir=docs/istanbul mocha --reporter=mochawesome --reporter-options reportDir=docs/mochawesome --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobyone/fractal-ioc.git"
+  },
+  "keywords": [
+    "ioc",
+    "autoload"
+  ],
+  "author": "Jérémy JOCHEMSKI (bobyone)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bobyone/fractal-ioc/issues"
+  },
+  "homepage": "https://github.com/bobyone/fractal-ioc#readme"
+}
