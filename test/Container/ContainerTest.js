@@ -5,7 +5,7 @@ chai.should();
 
 describe('Container', () => {
   it('construct() : must load only one configuration file in this case', (done) => {
-    const container = new Container('test/Common/ConfigFiles/Config1.js');
+    const container = new Container('test/Common/ConfigFiles/Config1.json');
     Object.keys(container.objectFiles).length.should.equal(1);
     Object.keys(container.objectType).length.should.equal(2);
     done();
